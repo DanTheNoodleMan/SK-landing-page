@@ -1,0 +1,55 @@
+
+
+body{
+    font-family: 'Exo', sans-serif;
+    margin: 0;
+}
+
+.header{
+    background-color: rgb(10, 10, 63);
+    color:whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+h1{
+    padding:20px;
+    font-weight: bold;
+    font-size: 32px;
+    margin: 0;
+    transition: font-size 300ms ease;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    padding:0;
+    margin:0;
+}
+
+li{
+    list-style-type: none;
+    margin-right: 24px;
+}
+
+a{
+    font-size: 18px;
+    text-decoration: none;
+    color:whitesmoke;
+    transition: font-size 300ms ease;
+}
+
+a:hover{
+    font-size: 22px;
+}
+
+h1:hover{
+    font-size: 42px;
+}
