@@ -24,6 +24,13 @@ body {
     transition: font-size 300ms ease;
 }
 
+.img-logo{
+    width:40px;
+    height: auto;
+    vertical-align: middle;
+    margin: 0 1rem;
+}
+
 .links {
     display: flex;
     align-items: center;
@@ -43,6 +50,7 @@ li {
 
 a {
     text-decoration: none;
+    color:white;
 }
 
 .header-link {
@@ -227,4 +235,10 @@ blockquote{
     background: linear-gradient(rgb(10, 10, 63) 10%, rgb(10, 22, 94));
     filter: brightness(1.5);
 
+}
+
+footer{
+    background: rgb(10, 10, 63);
+    text-align: center;
+    padding:1rem;
 }
