@@ -141,9 +141,28 @@ h1 {
     justify-content: center;
     background-color: rgb(10, 10, 63);
     color:white;
+    padding: 20px 0 60px 0;
 }
 
 .box-container{
     display: flex;
+    gap:60px;
 
+}
+
+.box{
+    text-align: center;
+}
+
+.box-img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border:2px solid whitesmoke;
+    border-width: 2px 0px 2px 0px;
+    border-radius: 10px;
+}
+
+.info-header{
+    font-size: 36px;
 }
