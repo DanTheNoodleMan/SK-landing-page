@@ -80,7 +80,7 @@ h1 {
 
 
 #section-1 {
-    background-image: url(/images/koreaBanner.jpg);
+    background-image: url(images/koreaBanner.jpg);
     background-size: cover;
     display: flex;
     justify-content: center;
